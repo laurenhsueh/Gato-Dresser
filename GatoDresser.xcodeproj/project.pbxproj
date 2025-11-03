@@ -29,9 +29,22 @@
 		50EA42552E82394600A726F7 /* GatoDresserUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GatoDresserUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		50A3BC172E8372500013ACE8 /* Exceptions for "GatoDresser" folder in "GatoDresser" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 50EA423D2E82394400A726F7 /* GatoDresser */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		50EA42402E82394400A726F7 /* GatoDresser */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				50A3BC172E8372500013ACE8 /* Exceptions for "GatoDresser" folder in "GatoDresser" target */,
+			);
 			path = GatoDresser;
 			sourceTree = "<group>";
 		};
@@ -400,6 +413,9 @@
 				DEVELOPMENT_TEAM = 8JP4JC6GL4;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GatoDresser/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "This app uses the camera to capture photo and videos.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "This app uses the photo library to capture photo and videos.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -428,6 +444,9 @@
 				DEVELOPMENT_TEAM = 8JP4JC6GL4;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GatoDresser/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "This app uses the camera to capture photo and videos.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "This app uses the photo library to capture photo and videos.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
